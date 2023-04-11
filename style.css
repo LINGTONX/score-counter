@@ -1,0 +1,73 @@
+@font-face {
+    font-family: scorefont;
+    src: url(CursedTimerUlil-Aznm.ttf);
+  }
+  
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(Bg.jpg);
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    width: 60%;
+    padding: 40px 0;
+    margin: 30px auto 0 auto;
+    border-radius: 5px;
+    border-bottom:6px solid #070836;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    color: #EEEEEE ;
+    padding: 20px 0;
+}
+h2{
+    padding: 50px 0 0 0;
+    text-align: center;
+    color: #9e9fc7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline 2px rgb(22, 55, 124);
+    
+}
+button{
+    height: 40px;
+    font-size: 22px;
+    padding: 8px 15px;
+    align-self: center;
+}
+#home-scorebox,
+#guest-scorebox{
+    font-size: 90px;
+    background: #080001;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    font-family: scorefont;
+    line-height:127px ;
+    padding: 10px 20px 0 20px;
+
+}
+
+.score-adder{
+    display: flex;
+    padding: 10px 0;
+    gap: 20px;
+    
+}
+
+.point-box{
+    border: 1px solid #9AABD8 ;
+    padding: 8px;
+    color: #9AABD8;
+    border-radius: 5px;
+    cursor: pointer;
+}
